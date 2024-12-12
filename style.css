@@ -1,0 +1,94 @@
+
+body {
+    background-color: #f3fbf7;
+    font-family: Arial, sans-serif;
+}
+.form-container {
+    max-width: 500px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    margin: 40px auto;
+    border: #000;
+}
+.form-container h1 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #24b47e;
+    text-align: center;
+}
+.form-container p {
+    margin-bottom: 15px;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+   
+}
+.btn-primary {
+    background-color: #24b47e;
+    border: none;
+    font-size: 16px;
+}
+.btn-primary:hover {
+    background-color: #1e9c68;
+}
+.footer {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    margin-top: 20px;
+}
+.footer img {
+    max-height: 20px;
+    margin: 0 5px;
+}
+ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+ul li {
+    color: #24b47e;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.trust-section {
+    margin-top: 20px;
+    text-align: center;
+}
+.trust-section span {
+    color: #333;
+    font-size: 16px;
+}
+.trust-section img {
+    margin-top: 10px;
+    max-height: 50px;
+    margin-right: 10px;
+}
+
+
+
+.logo {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: #000;
+    text-align: center;
+}
+.logo .icon {
+    position: relative;
+    margin-right: 5px;
+    display: inline-block;
+}
+.logo .icon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 12px;
+    height: 12px;
+    background-color: #77c476;
+    border-radius: 2px;
+}
